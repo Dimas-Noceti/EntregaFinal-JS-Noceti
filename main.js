@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const getPosts = async () => {
 
-    const response = await fetch("/productos.json")
+    const response = await fetch("./productos.json");
     const data = await response.json();
     return data
 
